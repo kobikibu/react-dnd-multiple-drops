@@ -1,0 +1,72 @@
+body {
+  background-color: #000;
+}
+
+h1, h4 {
+  color:gold;
+}
+
+h1 {
+ text-align:left;
+ margin: 0.5em auto;
+ width:50%;
+}
+
+h4 {
+  margin-top:-3em;
+}
+
+.container {
+  border-radius:1em;
+  margin: 0 auto;
+  width:30%;
+  min-height:600px;
+  text-align:center;
+  padding:3em;  
+}
+
+.wordHome {
+  background-color:snow;
+  border-radius:.4em;
+  height: 4.4rem;
+  width: 4.4rem;
+  margin-right: .4rem;
+  margin-bottom: .4rem;
+  color: darkGrey;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: normal;
+  float: left;
+}
+
+.drop {
+  background-color: gold; 
+  border-radius:0.4em;
+  padding:.4em 0;
+  color: Navy;
+  font-weight:bold;
+}
+
+.wordLabelWrapper {
+  width:90%; 
+  margin:2em auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.wordLabel {
+  margin-left:0.4em;
+  width:auto;
+  height:1em;
+  padding:.4em;
+  margin:.4em;
+  text-align: center;
+  border-radius:.4em;
+  background-color: gold;
+  color:Navy;
+  font-weight:bold;
+  cursor: move;
+}
